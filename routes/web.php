@@ -15,6 +15,6 @@ Route::get('/', function () {
     return view('pages.home');
 });
 
-Route::get('/', function () {
+Route::get('/second', function () {
     return view('pages.second');
 });
